@@ -1,0 +1,11 @@
+# 1. プラグインをアンインストール（既定で user scope を対象）
+  /plugin uninstall r2b@r2b-marketplace
+
+  # 2. マーケットプレイス削除（全scopeから一掃）
+  /plugin marketplace remove r2b-marketplace
+
+  # 3. 再追加（既定で user scope に登録）
+  /plugin marketplace add https://github.com/SALT2-Boost/r2b-docs.git#main
+
+  # 4. 再インストール（既定で user scope にインストール）
+  /plugin install r2b@r2b-marketplace
